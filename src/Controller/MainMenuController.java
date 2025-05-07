@@ -6,6 +6,7 @@ import Model.Dao.PaymentDAO;
 import Model.Dao.ServiceDAO;
 import Model.Dao.UserDAO;
 import view.ClientView;
+import view.DashboardView;
 import view.EmployeeView;
 import view.MainMenuView;
 import view.PaymentView;
@@ -13,13 +14,23 @@ import view.ServiceView;
 import view.UserView;
 
 public class MainMenuController {
+
     private MainMenuView view;
     private UserDAO userDAO;
 
     public MainMenuController(MainMenuView view, UserDAO userDAO) {
         this.view = view;
         this.userDAO = userDAO;
-
+        
+        view.addDashboardListener(e -> {
+            DashboardView dashboardView = new DashboardView();
+            view.getMainPanel().removeAll();
+            view.getMainPanel().add(dashboardView);
+            view.getMainPanel().revalidate();
+            view.getMainPanel().repaint();
+            new DashboardController(dashboardView);
+        });
+        
         // Usuarios
         view.addGestionUsuariosListener(e -> {
             UserView userView = new UserView();
@@ -69,5 +80,7 @@ public class MainMenuController {
             view.getMainPanel().repaint();
             new PaymentController(paymentView, new PaymentDAO());
         });
+
+        
     }
 }

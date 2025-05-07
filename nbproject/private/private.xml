@@ -3,39 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Controller/UserController.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Model/Dao/ServiceDAO.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Model/Entities/User.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Model/validation/EmployeeValidator.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Controller/PaymentController.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Model/validation/ClientValidator.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Model/Dao/PaymentDAO.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Controller/EmployeeController.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Helper/ClientHelper.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Controller/ServiceController.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Model/validation/PaymentValidator.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Controller/LoginController.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Model/LoginDAO.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/View/ClientView.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Controller/ClientController.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/View/LoginView.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Model/validation/UserValidator.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Helper/ServiceHelper.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Model/Interface/CRUDInterface.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Model/Entities/Payment.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Model/Entities/Employee.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Model/Dao/EmployeeDAO.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/App/Main.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Config/DBConnection.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Model/validation/ServiceValidator.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Model/Dao/UserDAO.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/View/EmployeeView.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/View/UserView.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Model/Login.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Helper/PaymentHelper.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Model/Dao/ClientDAO.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Helper/EmployeeHelper.java</file>
-            <file>file:/C:/Users/Usuario/Downloads/AppDSG3/src/Helper/UserHelper.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/SENATI/5to%20ciclo/Seminario/JavaProyectoFinal1/AppDSG3/src/Model/validation/UserValidator.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/SENATI/5to%20ciclo/Seminario/JavaProyectoFinal1/AppDSG3/src/Model/validation/ClientValidator.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/SENATI/5to%20ciclo/Seminario/JavaProyectoFinal1/AppDSG3/src/Model/validation/EmployeeValidator.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/SENATI/5to%20ciclo/Seminario/JavaProyectoFinal1/AppDSG3/src/Helper/EmployeeHelper.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/SENATI/5to%20ciclo/Seminario/JavaProyectoFinal1/AppDSG3/src/Model/validation/PaymentValidator.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/SENATI/5to%20ciclo/Seminario/JavaProyectoFinal1/AppDSG3/src/Model/validation/ServiceValidator.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/SENATI/5to%20ciclo/Seminario/JavaProyectoFinal1/AppDSG3/src/Controller/ClientController.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/SENATI/5to%20ciclo/Seminario/JavaProyectoFinal1/AppDSG3/src/Helper/PaymentHelper.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/SENATI/5to%20ciclo/Seminario/JavaProyectoFinal1/AppDSG3/src/Helper/ClientHelper.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/SENATI/5to%20ciclo/Seminario/JavaProyectoFinal1/AppDSG3/src/Controller/EmployeeController.java</file>
         </group>
     </open-files>
 </project-private>

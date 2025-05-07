@@ -4,6 +4,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
 
+import controller.DashboardController;
+
+
 public class MainMenuView extends JFrame {
     private String userName;
     private String userRole;
@@ -13,6 +16,7 @@ public class MainMenuView extends JFrame {
     private JMenuItem serviceItem;
     private JMenuItem employeeItem;
     private JMenuItem paymentItem;
+    private JMenuItem dashboardItem;
 
     private JPanel mainPanel;
 
@@ -34,12 +38,16 @@ public class MainMenuView extends JFrame {
         serviceItem = new JMenuItem("Manage Services");
         employeeItem = new JMenuItem("Manage Employees");
         paymentItem = new JMenuItem("Manage Payments");
+        dashboardItem = new JMenuItem("Dashboard");
 
         gestionMenu.add(userItem);
         gestionMenu.add(clientItem);
         gestionMenu.add(serviceItem);
         gestionMenu.add(employeeItem);
         gestionMenu.add(paymentItem);
+        gestionMenu.addSeparator();
+        gestionMenu.add(dashboardItem);
+
         menuBar.add(gestionMenu);
         setJMenuBar(menuBar);
 
@@ -48,14 +56,14 @@ public class MainMenuView extends JFrame {
         userLabel.setForeground(Color.decode("#1565C0"));
         add(userLabel, BorderLayout.NORTH);
 
-        // Usar ImagePanel para mostrar imagen de fondo
+        // Panel principal con imagen de fondo
         mainPanel = new ImagePanel("/resources/TISE.jpg");
         mainPanel.setLayout(new BorderLayout());
         mainPanel.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
         add(mainPanel, BorderLayout.CENTER);
     }
 
-    // Clase interna para panel con imagen de fondo
+    // Panel con imagen de fondo
     public static class ImagePanel extends JPanel {
         private Image backgroundImage;
 
@@ -67,16 +75,17 @@ public class MainMenuView extends JFrame {
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);
             if (backgroundImage != null) {
-                // Dibuja la imagen escalada al tamaño del panel
                 g.drawImage(backgroundImage, 0, 0, getWidth(), getHeight(), this);
             }
         }
     }
 
+    // ✅ Este método debe ser público para que el controlador pueda acceder
     public JPanel getMainPanel() {
         return mainPanel;
     }
 
+    // Métodos para asignar listeners
     public void addGestionUsuariosListener(ActionListener listener) {
         userItem.addActionListener(listener);
     }
@@ -95,5 +104,9 @@ public class MainMenuView extends JFrame {
 
     public void addGestionPaymentListener(ActionListener listener) {
         paymentItem.addActionListener(listener);
+    }
+
+    public void addDashboardListener(ActionListener listener) {
+        dashboardItem.addActionListener(listener);
     }
 }
